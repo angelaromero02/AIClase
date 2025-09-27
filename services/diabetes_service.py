@@ -23,7 +23,7 @@ def diabetes_prediction(data: PatientData):
 
     prediction = model.predict(xin)
 
-    print("prediction ",prediction)
+    print("predicción:",prediction)
     # Por simplicidad, vamos a devolver una predicción ficticia
     return labels[prediction[0]]
    
